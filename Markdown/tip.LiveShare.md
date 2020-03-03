@@ -22,9 +22,9 @@ Click on the `Live Share` status bar item or press `Ctrl+Shift+P` / `Cmd+Shift+P
 
 After installing Visual Studio Live Share, a custom tab will be added to the VS Code activity bar. In this tab, you can access all Live Share functions to collaborate. Additionally, when you share or join a collaboration session, a view will also appear in the Explorer tab for you to access all these functions as well.
 
-![Live Share custom tab](./images/VSCdoe_Live_share/Vscode_coworker_list.png)
+![Live Share custom tab](../images/VSCode_Live_share/Vscode_coworker_list.png)
 
-![Live Share explorer view](./images/VSCdoe_Live_share/vscode-explorer-view.png)
+![Live Share explorer view](../images/VSCode_Live_share/vscode-explorer-view.png)
 
 With these views, you can see a participant's location in the shared code, click on a participant to follow them, focus participants, access shared servers and terminals, and more.
 
@@ -50,7 +50,7 @@ After downloading and installing Visual Studio Live Share, follow these steps to
 
    Now, simply **click** the "Live Share" status bar item or hit **Ctrl+Shift+P / Cmd+Shift+P** and select "Live Share: Start a collaboration session (Share)".
 
-   ![Share button](./images/VSCdoe_Live_share/vscode-share-button-new.png)
+   ![Share button](../images/VSCode_Live_share/vscode-share-button-new.png)
 
    * ***Note**
 
@@ -70,7 +70,7 @@ After downloading and installing Visual Studio Live Share, follow these steps to
 
    After sharing, you will get a notification that the invite link has been copied to your clipboard. You can then select the option to make the session read-only.
 
-   ![VS Code Read-only mode](./images/VSCdoe_Live_share/vscode-read-only-toast.png)
+   ![VS Code Read-only mode](../images/VSCode_Live_share/vscode-read-only-toast.png)
 
 6. **Send someone the link**
 
@@ -92,7 +92,7 @@ After downloading and installing Visual Studio Live Share, follow these steps to
 
    Once you have this setting turned on, a notification will prompt you to approve the guest before they can join.
 
-   ![Visual Studio Code join approval request](./images/VSCdoe_Live_share/vscode-join-approval.png)
+   ![Visual Studio Code join approval request](../images/VSCode_Live_share/vscode-join-approval.png)
 
    See [invitations and join access](https://docs.microsoft.com/en-us/visualstudio/liveshare/reference/security#invitations-and-join-access) for additional details on invitation security considerations.
 
@@ -102,7 +102,7 @@ After downloading and installing Visual Studio Live Share, follow these steps to
 
 As a host, you can stop sharing completely and end the collaboration session at any time by opening the Live Share view in the Explorer or in the Live Share custom tab and selecting the "Stop collaboration session" icon.
 
-![Stop collaboration session](./images/VSCdoe_Live_share/vscode-end-collaboration-viewlet.png)
+![Stop collaboration session](../images/VSCode_Live_share/vscode-end-collaboration-viewlet.png)
 
 All guests will be notified that the session has ended. Once the session has ended, guests will no longer be able to access the content and any temp files are automatically cleaned up.
 
@@ -130,7 +130,7 @@ The easiest way to join a collaboration session is to simply open the invite lin
 
    You should be notified that the browser wants to launch a Live Share enabled tool. If you let it launch your selected tool, you'll be connected to the collaboration session once it starts.
 
-   ![Join page](./images/VSCdoe_Live_share/join-page.png)
+   ![Join page](../images/VSCode_Live_share/join-page.png)
 
    If the host is offline, you'll be notified at this point instead. You can then contact the host and ask them to share again.
 
@@ -160,7 +160,7 @@ You can also manually join without using a web browser which can be useful in si
 
    Open the Live Share custom tab in the VS Code activity bar, and select the "Join collaboration session..." icon or entry.
 
-   ![Join viewlet icon](./images/VSCdoe_Live_share/vscode-join-viewlet.png)
+   ![Join viewlet icon](../images/VSCode_Live_share/vscode-join-viewlet.png)
 
 3. **Paste the invite link**
 
@@ -178,7 +178,7 @@ You can also manually join without using a web browser which can be useful in si
 
 As a guest, you can leave the collaboration session without ending it for others by simply closing the VS Code window. If you'd prefer to keep the window open, you can open the Live Share Explorer view or the Live Share custom tab and select the "Leave collaboration session" icon.
 
-![Leaves session icon](./images/VSCdoe_Live_share/vscode-leave-session-viewlet.png)
+![Leaves session icon](../images/VSCode_Live_share/vscode-leave-session-viewlet.png)
 
 Any temp files are automatically cleaned up so no further action is needed.
 
@@ -192,7 +192,7 @@ Once a guest has joined a collaboration session, all collaborators will immediat
 
   Joining a read-only collaboration session prevents guests from being able to make edits to files. A host can [enable read-only mode when they share](https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode#share-a-project). As a guest, you can tell if you have joined a read-only session by looking at your [session state](https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode#session-states).
 
-![Screen shot showing co-editing](./images/VSCdoe_Live_share/vscode-coedit.png)
+![Screen shot showing co-editing](../images/VSCode_Live_share/vscode-coedit.png)
 
 * **Note**
 
@@ -200,7 +200,7 @@ Once a guest has joined a collaboration session, all collaborators will immediat
 
 Beyond cursors and edits, selections you make are also visible to all participants in that same file. This makes it easy to highlight where problems might exist or convey ideas.
 
-![Screen shot showing highlighting](./images/VSCdoe_Live_share/vscode-highlight.png)
+![Screen shot showing highlighting](../images/VSCode_Live_share/vscode-highlight.png)
 
 Better yet, you and other participants can navigate to any file in the shared project. You can either edit together or independently meaning you can seamlessly switch between investigation, making small tweaks and full collaborative editing.
 

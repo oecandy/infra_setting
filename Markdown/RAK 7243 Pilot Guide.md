@@ -62,7 +62,11 @@ User : pi, Password : raspberry
 
 ![configure_console](../images/Configure_RAK_7243_Pilot/configure_console.png)
 
-1. Select a option : 6 APN name 
+1. ```sudo gateway-config``` -> Select a option : 6 APN name 
+
+   Set the apn name that is compatible with your usim-card.
+
+   Ex) lte150.ktfwing.com, lte.ktfwing.com : It's compatible with a KT lte usim card
 
 2. Return terminal and input the commandline bellow
 
@@ -72,7 +76,7 @@ User : pi, Password : raspberry
 
    
 
-3. Typing the commandline bellow and exit (CTRL+A -> Z -> Q)
+3. Typing the commandline bellow and exit (CTRL+A -> Z(Skipable) -> Q)
 
    ```bash
    AT
@@ -99,6 +103,8 @@ User : pi, Password : raspberry
    secondary DNS address xxx.xxx.xxx.xxx
    ...
    ```
+
+   If you see the log above, it's a success. CTRL+c and  go to the next step.
 
    
 

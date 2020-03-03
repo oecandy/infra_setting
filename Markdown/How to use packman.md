@@ -4,13 +4,13 @@
 
 1. Click the start menu and select ‘Add/Remove Software,’ which is nothing but ‘Package Manager.’
 
-   ![Manjaro Start Menu](./images/How_to_use_packman/SelectMenuAddRm.png)
+   ![Manjaro Start Menu](../images/How_to_use_packman/SelectMenuAddRm.png)
 
 2. In the ‘Package Manager,’ click on the breadcrumb and select ‘Preferences.’
 
 3. Click on the ‘AUR’ tab. It is the Arch User Repository where you will find hundreds of community developed packages. The package maintainer uses Package Helper to download the browser from Google servers and compiles it for Arch Linux based distros. It is trustworthy for seven years or so. So don’t worry – it is safe.
 
-![AUR Repository](./images/How_to_use_packman/RepoPreference.png)
+![AUR Repository](../images/How_to_use_packman/RepoPreference.png)
 
 4. Enable AUR support by turning ON the slider button. Also, check the box ‘Check for updates from AUR.’ Click ‘Close.’
 
