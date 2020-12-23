@@ -83,7 +83,7 @@ User : pi, Password : raspberry
    ok
    AT+COPS=?
    +COPS: .....,(1,"KT"(XXX),"KT","48200",2(YYY)) ,.....
-   AT+COPS=1,0,XXX,YYY()
+   AT+COPS=1,0,XXX,YYY
    ok
    ```
 
